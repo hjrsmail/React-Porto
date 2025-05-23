@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import clsx from 'clsx';
 import NavLink from './nav-link';
 import NavLinkMobile from './nav-link-mobile';
-import ThemeToggleButton from './theme-toggle-button';
+import ThemeToggle from './theme-toggle';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function Navbar() {
                     {/* Desktop Navigation */}
                     <div className="hidden md:block justify-self-start">
                         <div className="ml-10 flex items-baseline space-x-4 bg-white dark:bg-white/30 px-6 py-1 rounded-xl border border-gray-200">
-                            <NavLink href="/" >Home</NavLink>
+                            <NavLink href="#home" >Home</NavLink>
                             <NavLink href="#about">About Me</NavLink>
                             <NavLink href="#skills">Skills</NavLink>
                             <NavLink href="#project">Project</NavLink>
@@ -56,7 +56,7 @@ export default function Navbar() {
 
                     {/* Theme Toggle */}
                     <div className="flex items-center">
-                        <ThemeToggleButton/>
+                        <ThemeToggle/>
                     </div>
 
                     {/* Mobile Menu Button */}

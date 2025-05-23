@@ -89,8 +89,8 @@ const Hero: React.FC = () => {
 
                 {/* Deskripsi */}
                 <div className="text-darkk w-auto p-2 text-justify text-base text-pretty md:text-lg/relaxed dark:text-gray-400">
-                    Saya adalah seorang web developer dengan minat di bidang frontend & UI/UX design, serta pengalaman membangun aplikasi berbasis
-                    Laravel dan Tailwind CSS.
+                    Saya adalah seorang web developer dengan minat di bidang frontend & backend, serta pengalaman membangun aplikasi berbasis
+                    Laravel Tailwind CSS, Bootstrap. Saat ini sedang menambah wawasan di bidang frontend dengan mempelajari library React dengan menggunakan Typescript.
                 </div>
 
                 <div className="prtf mt-4 flex flex-col gap-4 text-center sm:mt-6 md:flex-row">

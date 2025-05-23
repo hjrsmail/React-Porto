@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const ThemeToggleButton: React.FC = () => {
+const ThemeToggle: React.FC = () => {
       const [darkMode, setDarkMode] = useState(false);
 
       // Saat komponen mount, cek localStorage & set class dark di html
@@ -63,4 +63,4 @@ const ThemeToggleButton: React.FC = () => {
       );
 };
 
-export default ThemeToggleButton;
+export default ThemeToggle;

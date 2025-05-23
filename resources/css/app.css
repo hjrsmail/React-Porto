@@ -67,7 +67,14 @@
     /* --breakpoint-custom : */
     --breakpoint-custom: 1436px;
     --breakpoint-custom-mini: 320px;
+
+
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* @plugin "daisyui"; */
 
